@@ -5,7 +5,7 @@
 import './App.css';
 import Portrait from './Portrait.png';
 import SleepTracker from './SleepTracker.png';
-//import Demo from './Demo.mp4';
+import Demo from './Demo.mp4';
 
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
           <li>I was required to implement some form of data backup, the logged data needing to remain after the app is reopened or refreshed. I utilized the Capacitor Storage API to solve this issue.</li>
           <li>I ran into the issue of users attempting to have a sleep end time that occurs before a sleep start time. I solved this issue by simply outputting an error message into the logged data section in place of where the logged data should have been.</li>
           <br></br>
-          <video className="Video1" type="video/mp4" controls></video>
+          <video className="Video1" src={Demo} type="video/mp4" controls></video>
         </div>
       </div>
     </body>
