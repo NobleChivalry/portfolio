@@ -1,18 +1,33 @@
-.App {
+.Banner {
+  background-color: darkslategray;
+  height: 33vmin;
+  color: white;
   text-align: center;
+  align-content: center;
+  font-size: 96px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Intro {
+  background-color: black;
+  height: 50vmin;
+  padding-top: 10vmin;
+  padding-left: 25vmin;
+  padding-right: 25vmin;
+  color: white;
+  display: flex;
+  font-size: 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.IntroText {
+  padding-top: 10vmin;
 }
 
+.Portrait {
+    height: 50vmin;
+    padding-right: 10vmin;
+}
+
+/*
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,16 +38,55 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+*/
 
-.App-link {
-  color: #61dafb;
+.Exhibit1 {
+  background-color: black;
+  height: 135vmin;
+  padding-top: 5vmin;
+  padding-left: 25vmin;
+  padding-right: 25vmin;
+  color: white;
+  font-size: 24px;
+  display: flex
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Title1 {
+  background-color: black;
+  padding-top: 10vmin;
+  padding-left: 25vmin;
+  padding-right: 25vmin;
+  display: flex
+}
+
+.Title1a {
+  color: white;
+  font-size: 32px;
+  padding-left: 12.5vmin;
+  padding-right: 17.5vmin;
+}
+
+.Title1b {
+  color: white;
+  font-size: 32px;
+}
+
+.Title1c {
+  color: white;
+  font-size: 32px;
+  padding-left: 15vmin;
+}
+
+.Image1 {
+  height: 50vmin;
+  padding-right: 10vmin;
+}
+
+.Video1 {
+  height: 33vmin;
+  padding-left: 7.5vmin;
+}
+
+.Link {
+  color: #61dafb;
 }
